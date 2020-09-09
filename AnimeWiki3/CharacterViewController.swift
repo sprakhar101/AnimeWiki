@@ -60,7 +60,7 @@ class CharacterViewController: UIViewController {
         if let button = sender as? WikiButton{
             descriptionVC.character = button.character
         }
-        print("here")
+        print("hello here")
         navigationController?.pushViewController(descriptionVC, animated: true)
     }
 
